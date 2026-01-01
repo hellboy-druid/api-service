@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.api-docs {
+  margin-top: 40px;
+}
+
+.api-docs h2 {
+  margin-top: 20px;
+}
+
+.api-docs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.api-docs li {
+  margin-bottom: 10px;
+}
+
+.api-docs li::before {
+  content: "→";
+  margin-right: 10px;
+}
+
+.api-endpoint {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.api-endpoint h3 {
+  margin-top: 0;
+}
+
+.api-method {
+  color: #00698f;
+}
+
+.api-method::before {
+  content: "(";
+}
+
+.api-method::after {
+  content: ")";
+}
+
+.api-params {
+  margin-top: 10px;
+}
+
+.api-params ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.api-params li {
+  margin-bottom: 5px;
+}
+
+.api-params li::before {
+  content: "―";
+  margin-right: 10px;
+}
+
+.api-example {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.api-example pre {
+  margin: 0;
+}
